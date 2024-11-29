@@ -16,7 +16,7 @@ export default function Form({ onAddTask }) {
         type="text"
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-        placeholder="Enter task descritpion"
+        placeholder="New Task"
       />
       <button type="submit">Add Task</button>
     </form>
