@@ -13,5 +13,5 @@ export default function TaskList({ tasks, onToggleTask, onDeleteTask }) {
         />
       ))}
     </ul>
-  );
+  )
 }
